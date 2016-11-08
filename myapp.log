@@ -1,0 +1,6 @@
+127.0.0.1 2016-09-19 21:13:41.842000 GET http://localhost:5555/ver 200 OK
+127.0.0.1 2016-09-19 21:14:19.402000 GET http://localhost:5555/ver 200 OK
+127.0.0.1 2016-09-19 21:14:40.710000 GET http://localhost:5555/ver 200 OK
+127.0.0.1 2016-09-19 21:16:43.231000 GET http://localhost:5555/groups 200 OK
+127.0.0.1 2016-09-19 21:32:38.909000 GET http://localhost:5555/groups 
+127.0.0.1 2016-09-19 21:38:07.684000 GET http://localhost:5555/groups <urlopen error [Errno 10061] Impossibile stabilire la connessione. Rifiuto persistente del computer di destinazione>
