@@ -9,20 +9,21 @@
 
 #
 # Server connection data
-#
-__server__ = 'http://10.249.33.174:8080'
+# write your server url and tableau site
+__server__ = 'http://localhost'
 __site__ = 'default'
 
+# write username and password of a tableau user enabled to use rest api
 __username__ = 'admin'
-__password__ = 'da#hjka$7dkalh90'
+__password__ = 'adminpwd'
 
 #
-# Cache file settings
+# Cache file settings. use a path on your file system
 #
 __cachedir__ = 'C:\\SIMS2\\TableauPhytonWrapper\\Cache\\'
 
 #
-# Log file settings
+# Log file settings and error log file settings. use path on your file system
 #
 __loggerfile__ = 'C:\\SIMS2\\TableauPhytonWrapper\\Log\\rest_wrapper.log'
 __errorlogfile__= 'C:\\SIMS2\\TableauPhytonWrapper\\Log\\errors.log'
