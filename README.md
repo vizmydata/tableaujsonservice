@@ -34,5 +34,5 @@ For example the following code
     
 represents how the management of call    http://localhost:5555/groups  is managed. 
 
-Licence for this code is LGPL https://www.gnu.org/licenses/lgpl-3.0.en.html
+Licence for this code is GPL https://www.gnu.org/licenses/gpl.html
 
