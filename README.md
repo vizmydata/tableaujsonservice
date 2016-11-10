@@ -16,23 +16,23 @@ E.g. browing the url http://localhost:5555/groups   the list of groups in json i
 The core of the code is in the file TableauJsonService.py that you can easily customize.
 For example the following code
 
-@wrapper.route('/groups')
-def groups():
+    @wrapper.route('/groups')
+    def groups():
 
-    tab_srv = TableauRestApi(__server, __username, __password, __site)
-    if __loggerfile is not None :
-        logger = Logger(__loggerfile)
-        tab_srv.enable_logging(logger)
+        tab_srv = TableauRestApi(__server, __username, __password, __site)
+        if __loggerfile is not None :
+                logger = Logger(__loggerfile)
+                tab_srv.enable_logging(logger)
 
-    tab_srv.signin()
-    tab_data = tab_srv.query_groups()
-    tab_objs = TableauWrapperObjects(tab_data)
-    tab_data_json = tab_objs.get_objects_json('groups')
+        tab_srv.signin()
+        tab_data = tab_srv.query_groups()
+        tab_objs = TableauWrapperObjects(tab_data)
+        tab_data_json = tab_objs.get_objects_json('groups')
 
-    return tab_data_json
+        return tab_data_json
     
     
-represent how the management of call    http://localhost:5555/groups  is managed. 
+represents how the management of call    http://localhost:5555/groups  is managed. 
 
 Licence for this code is LGPL https://www.gnu.org/licenses/lgpl-3.0.en.html
 
